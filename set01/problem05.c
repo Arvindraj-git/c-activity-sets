@@ -4,7 +4,7 @@ int input()
 {
 int x;
 printf("Enter a number:");
-scanf("%d"&x);
+scanf("%d",&x);
 return x;
 }
 
@@ -21,7 +21,7 @@ int compare(int a,int b,int c)
 }
 void output(int a,int b,int c,int largest)
 {
-    printf("the largest number among them is: %d/n",largest);
+    printf("the largest number among them is: %d",largest);
 }
 int main(){
     int num1,num2,num3,largest;
