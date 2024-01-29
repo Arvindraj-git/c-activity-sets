@@ -1,9 +1,9 @@
 #include<stdio.h>
 int  input (){
 int a;
-printf("enter the number/n");
+printf("Enter the number: ");
 scanf("%d",&a);
-return 0;
+return a;
 }
 
 int add(int a,int b)
@@ -16,7 +16,7 @@ void output(int a,int b,int sum)
 {
     printf("the sum of %d+%d=%d",a,b,sum);
 }
-int main(void)
+int main()
 {
     int a,b,sum;
     a= input();
