@@ -5,7 +5,7 @@ int input()
 int x;
 printf("Enter a number:");
 scanf("%d"&x);
-rerurn x;
+return x;
 }
 
 int compare(int a,int b,int c)
