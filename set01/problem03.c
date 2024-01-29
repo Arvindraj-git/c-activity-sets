@@ -1,7 +1,7 @@
 #include<stdio.h>
 int  input (){
 int a;
-printf("enter the number");
+printf("enter the number/n");
 scanf("%d",&a);
 return 0;
 }
@@ -23,5 +23,5 @@ int main(void)
     b=input();
     sum=add(a,b);
     output(a,b,sum);
-    retutn sum;
+    return sum;
 }
