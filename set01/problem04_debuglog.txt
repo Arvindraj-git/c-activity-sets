@@ -1,0 +1,33 @@
+gdb .\problem04.exe 
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\ashwini\PSC\c-activity-sets-1\set01\problem04.exe...done.
+(gdb) r
+Starting program: C:\Users\ashwini\PSC\c-activity-sets-1\set01/.\problem04.exe
+[New Thread 22608.0x8b04]
+[New Thread 22608.0x7808]
+enter two numbers/n
+2 3
+sum of 2142208+0 is 2142208/n[Inferior 1 (process 22608) exited normally]
+(gdb) b main
+Breakpoint 1 at 0x4014da: file problem04.c, line 18.
+(gdb) r
+Starting program: C:\Users\ashwini\PSC\c-activity-sets-1\set01/.\problem04.exe
+[New Thread 22156.0x8e9c]
+[New Thread 22156.0x8e20]
+
+Breakpoint 1, main () at problem04.c:18
+18      input(&a,&b);
+(gdb) c
+Continuing.
+enter two numbers/n  
+1 2
+sum of 2691072+0 is 2691072/n[Inferior 1 (process 22156) exited normally]
+(gdb) q
