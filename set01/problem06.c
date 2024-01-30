@@ -9,9 +9,9 @@ int main()
     a=input();
     b=input();
     c=input();
-     compare(a,b,c,&largest);
-     output(a,b,c,&largest);
-     return 0;
+    compare(a,b,c,&largest);
+    output(a,b,c,&largest);
+    return 0;
 }
 int input()
 {
