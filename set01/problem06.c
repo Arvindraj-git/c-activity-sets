@@ -20,7 +20,7 @@ int input()
     scanf("%d",&x);
     return x;
 }
-void compare(int a,intb,int c,int *largest);
+void compare(int a,int b,int c,int *largest);
 {
     if(a>=b&&a>=c)
     {
