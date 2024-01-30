@@ -1,7 +1,7 @@
 #include<stdio.h>
 int input(int *a,int *b)
 {
-    printf("enter two numbers");
+    printf("enter two numbers/n");
     scanf("%d%d",&a,&b);
 }
 void add(int a,int b,int *sum)
