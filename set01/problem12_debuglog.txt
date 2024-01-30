@@ -1,0 +1,26 @@
+gdb .\problem12.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\ashwini\PSC\c-activity-sets-1\set01\problem12.exe...done.
+(gdb) r
+Starting program: C:\Users\ashwini\PSC\c-activity-sets-1\set01/.\problem12.exe
+[New Thread 39700.0xa240]
+[New Thread 39700.0xadb0]
+Enter the number of complex numbers (n): 3
+Enter complex number 1:
+Enter the real part: 2 3
+Enter the imaginary part: Enter complex number 2:
+Enter the real part: 4 5
+Enter the imaginary part: Enter complex number 3:
+Enter the real part:  6 7
+Enter the imaginary part: Sum of 3 complex numbers:
+2.000000 + 3.000000i + 4.000000 + 5.000000i + 6.000000 + 7.000000i = 12.000000 + 15.000000i
+[Inferior 1 (process 39700) exited normally]
+(gdb) q
