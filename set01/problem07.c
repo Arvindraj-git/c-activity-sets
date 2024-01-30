@@ -1,4 +1,3 @@
-//Write a C program to find sum of all natural numbers until n
 #include<stdio.h>
 int input_n()
 {
