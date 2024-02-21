@@ -1,0 +1,8 @@
+PS D:\all files\OneDrive\Desktop\PSC\c-activity-sets\set02> gcc -g -O0 problem01.c -o problem01.exe
+PS D:\all files\OneDrive\Desktop\PSC\c-activity-sets\set02> .\problem01.exe
+Enter the base of the triangle: 
+3
+Enter the height of the triangle:
+5
+The area of the triangle with base 3.000000 and height 5.000000 is: 7.500000
+PS D:\all files\OneDrive\Desktop\PSC\c-activity-sets\set02>
