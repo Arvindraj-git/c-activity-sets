@@ -1,4 +1,13 @@
-gdb .\problem02.exe
+PS D:\all files\OneDrive\Desktop\PSC\c-activity-sets\set02> gcc -g -O0 problem02.c -o problem02.exe
+PS D:\all files\OneDrive\Desktop\PSC\c-activity-sets\set02> .\problem02.exe
+Enter the first side of the triangle: 
+1
+Enter the first side of the triangle:
+2 
+Enter the first side of the triangle:
+3
+The triangle is scalene
+PS D:\all files\OneDrive\Desktop\PSC\c-activity-sets\set02> gdb
 GNU gdb (GDB) 7.6.1
 Copyright (C) 2013 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
@@ -7,12 +16,15 @@ There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
 and "show warranty" for details.
 This GDB was configured as "mingw32".
 For bug reporting instructions, please see:
-<http://www.gnu.org/software/gdb/bugs/>...
-Reading symbols from D:\all files\OneDrive\Desktop\PSC\c-activity-sets\set02\problem02.exe...done.
+<http://www.gnu.org/software/gdb/bugs/>.
+(gdb) b main
+No symbol table is loaded.  Use the "file" command.
+Make breakpoint pending on future shared library load? (y or [n]) y
+Breakpoint 1 (main) pending.
 (gdb) r
-Starting program: D:\all files\OneDrive\Desktop\PSC\c-activity-sets\set02/.\problem02.exe
-[New Thread 10888.0xa6d0]
-[New Thread 10888.0x18c]
-It is scalene triangle
- [Inferior 1 (process 10888) exited normally]
-(gdb) q                                                
+Starting program:
+No executable specified, use `target exec'.
+(gdb) n
+The program is not being run.
+(gdb) finish
+The program is not being run.

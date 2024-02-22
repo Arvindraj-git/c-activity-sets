@@ -1,0 +1,9 @@
+PS D:\all files\OneDrive\Desktop\PSC\c-activity-sets\set02> gcc -g -O0 problem02.c -o problem02.exe
+PS D:\all files\OneDrive\Desktop\PSC\c-activity-sets\set02> .\problem02.exe
+Enter the first side of the triangle: 
+1
+Enter the first side of the triangle:
+2 
+Enter the first side of the triangle:
+3
+The triangle is scalene 
