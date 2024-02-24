@@ -1,0 +1,11 @@
+Breakpoint 1, main () at problem03.c:10
+10          n = input_number();
+(gdb) n
+Enter any number:
+3
+11          res = is_composite(n);
+(gdb) n
+12          output(n,res);
+(gdb) c
+Continuing.
+The number 3 is not composite number.[Inferior 1 (process 9976) exited normally]
